@@ -64,6 +64,9 @@
             left: 2em!important;
             background: 0!important;
         }
+        #contact-info-section table th {
+            width: 100px!important;
+        }
         profile-card-extras .profile-actions {
             margin-top:-3.25em!important;
             left:84px!important;
@@ -93,6 +96,7 @@
         }
         .profile-card {
             width:100%!important;
+            height: 220px;
         }
         .profile-card .profile-picture,.profile-card .profile-overview {
             display:table-cell!important;
@@ -107,6 +111,7 @@
         }
         .profile-card .profile-picture {
             float: right!important;
+            display: none!important;
         }
         .profile-card .profile-overview-content {
             min-height: 0!important;
